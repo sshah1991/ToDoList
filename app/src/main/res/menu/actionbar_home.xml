@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+        android:id="@+id/action_add"
+        android:icon="@drawable/add_new_task"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <item
+
+        android:id="@+id/action_completed"
+        android:icon="@drawable/complete"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Refresh"
+        app:showAsAction="always" />
+</menu>
